@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="valid form.css" />
+    <script src="validform.js" defer></script>
+  </head>
+  <body>
+    <form class="form" id="form">
+      <h3>Formulaire</h3>
+      <div>
+        <label for="nom">Name</label>
+        <input type="text" id="nom" />
+        <em id="alert" class="alert"></em>
+      </div>
+      <div>
+        <label for="postnom">Last Name</label>
+        <input type="text" id="postnom" />
+        <em id="alert2" class="alert"></em>
+      </div>
+
+      <div>
+        <label for="mail">E-mail</label>
+        <input type="text" name="" id="mail" />
+        <em id="alert3" class="alert"></em>
+      </div>
+      <div>
+        <label for="numero">Numero</label>
+        <input type="number" name="" id="numero" />
+        <em class="alert" id="alert4"></em>
+      </div>
+      <div>
+        <div class="label">Langues parlees</div>
+        <div class="check">
+          <label for="europe">Francais</label>
+          <input type="checkbox" value="Francais" /><label for="amerique"
+            >Anglais</label
+          ><input type="checkbox" name="" value="Anglais" />
+          <label for="afrique">Swahili</label>
+          <input type="checkbox" name="" value="Swahili" />
+          <label for="asie">Chinois</label>
+          <input type="checkbox" name="" value="Chinois" />
+        </div>
+        <em class="alert" id="alert5"></em>
+      </div>
+      <div>
+        <label for="pays">Selectionnez votre pays</label>
+        <select name="" id="pays">
+          <option value="">Selectionnez votre pays</option>
+          <option value="Congolaise">Congo</option>
+          <option value="Rwandaise">Rwanda</option>
+          <option value="Burundaise">Burundi</option>
+          <option value="Tanzanienne">Tanzanie</option>
+        </select>
+        <em class="alert" id="alert7"></em>
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="" id="password" />
+        <em id="alert6" class="alert"></em>
+      </div>
+      <button type="submit">S'enregistrer</button>
+    </form>
+
+    <form class="form2" id="form2">
+      <h3>Connexion</h3>
+      <div>
+        <label for="mail2">Email</label>
+        <input type="email" name="" id="mail2" />
+        <em class="alert" id="alert8"></em>
+      </div>
+      <div>
+        <label for="password2">Password</label>
+        <input type="password" name="" id="password2" />
+        <em class="alert" id="alert9"></em>
+      </div>
+
+      <button type="submit">Connexion</button>
+    </form>
+
+    <section id="profil">
+      <h1>Le Profil</h1>
+      <div id="present">
+        <img src="FB_IMG_15811533456852538.jpg" alt="Image" />
+        <div id="nomination"></div>
+      </div>
+      <div id="origine"></div>
+      <div id="langue"></div>
+      <div id="contact"></div>
+    </section>
+  </body>
+</html>
